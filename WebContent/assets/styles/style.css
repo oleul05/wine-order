@@ -1,0 +1,143 @@
+body {
+    background-color: #e5e5e5;
+    text-align: center;
+    background: url("../images/wood-bg.jpg")
+}
+
+h1 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 32pt;
+    font-weight: 200;
+    color: #323232;
+    text-align: center;
+    line-height: 32pt;
+}
+
+h2 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 18pt;
+    font-weight: 200;
+    color: #323232;
+    text-align: center;
+    line-height: 32pt;
+}
+
+h4 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #323232;
+    text-align: center;
+    line-height: 32pt;
+}
+
+form {
+    color: #323232;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 12pt;
+    font-weight: 200;
+    text-align: right;
+}
+
+#main {
+    background-color: #a7a7a7;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+    #main p {
+        margin-top: 20px;
+        font-family: "Helvetica", "Arial", sans-serif;
+        font-size: 12pt;
+        font-weight: 200;
+        font-style: italic;
+        color: #323232;
+        text-align: center;
+        line-height: 12pt;
+    }
+
+.image {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#order {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+    #order button {
+        margin-top: 40px;
+    }
+
+    #order .clientForm {
+        float: left;
+        width: 340px;
+        height: 400px;
+        padding-bottom: 20px;
+        border: 2px solid #e5e5e5;
+        line-height: 23px;
+    }
+
+#returning_order .menuForm {
+    float: right;
+    width: 380px;
+    margin-right:20px;
+    padding-bottom: 20px;
+    border: 2px solid #e5e5e5;
+    line-height: 23px;
+    height: 400px;
+}
+
+.forms_fields {
+    float: left;
+    text-align: right;
+}
+
+.input_button {
+    margin: 40px;
+}
+
+.clientForm input {
+    margin-left: 24px;
+    width: 140px;
+}
+
+.form-actions {
+    padding: 10px;
+}
+
+.menuForm label {
+    margin-left: 40px
+}
+
+.menuForm input {
+    margin-left: 64px;
+    vertical-align: middle;
+}
+
+#btnSoumettrenew{
+    /* color:white;
+    border-color:white; */
+    text-wrap:normal;
+}
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: right;
+    margin-bottom: 20px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+    font-weight: 200;
+    color: #323232;
+    line-height: 10pt;
+}

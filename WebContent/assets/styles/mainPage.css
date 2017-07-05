@@ -1,0 +1,86 @@
+section {
+    float: left;
+    width: 500px;
+}
+body{
+    background-image:url("../images/wood-bg.jpg")
+}
+
+
+footer {
+    margin: 0;
+    padding-top: 1.5em;
+    clear: both;
+}
+/* the styles for the other HTML elements */
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+
+td, th {
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: center;
+}
+
+table tr:nth-child(odd) td  {
+    background: lightgrey;
+}
+
+table.alternate tr:nth-child(even) td {
+    background: gray;
+}
+
+br {
+    clear: both;
+}
+
+button {
+    margin: 10px;
+}
+
+.center {
+        height: 20px;
+        width: 100px;
+        margin: 20px -50px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+    }
+
+footer {
+    text-align: center;
+}
+
+/*.mainBody {
+    "background: lightgray"
+}*/
